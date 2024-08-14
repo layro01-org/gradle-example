@@ -72,10 +72,10 @@ can check which versions Gradle is using by running ``./gradlew dependencies``.
 Shadow Jar
 ~~~~~~~~~~
 
-The `Shadow Jar`_ plugin is designed to create a single jar file including all of a project's dependencies.  This means
-an application can be packaged into a single file, with no classpath management needed.
+The `Shadow Jar`_ plugin is designed to create a single jar file that includes all of a project's dependencies.  This means
+an application can be packaged into a single file without classpath management.
 
-Creating the fat jar is done using the ``shadowJar`` task::
+Creating the fat jar is done using the ``shadowJar`` task:
 
     ./gradlew shadowJar
 
@@ -87,8 +87,8 @@ from the command line::
 Since this is a Groovy project, there are a lot of classes related to Groovy's dynamic enhancement of the JDK included
 as well.
 
-Using just the Shadow Jar plugin is sufficient to create a bundled jar with all dependencies.  We can make it more
-useful, however, with the ``application`` plugin.  This is used to specify the main class:
+Using just the Shadow Jar plugin is sufficient to create a bundled jar with all dependencies.  However, we can make it more
+useful with the ``application`` plugin.  This is used to specify the main class:
 
     application {
         mainClassName = 'com.adjectivecolournoun.gradle.Greetz'
