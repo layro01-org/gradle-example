@@ -9,7 +9,7 @@ Running the example
 This project uses the `Gradle Wrapper`_ to bootstrap the build chain automatically.  The only requirement for running
 this example is to have a JDK installed and on the path.  Check out `SDKMAN!`_ for easy Java version management.
 
-In the root of this project, run::
+At the root of this project, run:
 
     ./gradlew shadowJar
     java -jar build/libs/gradle-example-all.jar
