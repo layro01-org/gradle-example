@@ -1,7 +1,7 @@
 plugins {
     id 'groovy'
     id 'application'
-    id 'com.github.johnrengelman.shadow' version '5.2.0'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
 }
 
 repositories {
@@ -14,10 +14,10 @@ repositories {
 archivesBaseName = 'gradle-example'
 
 dependencies {
-    implementation 'org.codehaus.groovy:groovy:3.+'
+    implementation 'org.codehaus.groovy:groovy:3.0.16'
 
     // Groovy module dependency
-    implementation 'org.codehaus.groovy:groovy-json:3.+'
+    implementation 'org.codehaus.groovy:groovy-json:3.0.16'
 
     // Strictly exact version of Maven dependency
     implementation 'com.codevineyard:hello-world:1.0.1!!'
