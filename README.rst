@@ -88,13 +88,13 @@ Since this is a Groovy project, there are a lot of classes related to Groovy's d
 as well.
 
 Using just the Shadow Jar plugin is sufficient to create a bundled jar with all dependencies.  We can make it more
-useful, however, with the ``application`` plugin.  This is used to specify the main class::
+useful, however, with the ``application`` plugin.  This is used to specify the main class:
 
     application {
         mainClassName = 'com.adjectivecolournoun.gradle.Greetz'
     }
 
-Now the jar manifest has a ``Main-Class`` entry added to it allowing it to be run directly::
+Now the jar manifest has a ``Main-Class`` entry added to it, allowing it to be run directly:
 
     java -jar build/libs/gradle-example-all.jar
 
