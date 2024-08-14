@@ -6,7 +6,7 @@ This simple Gradle project demonstrates local and remote dependency resolution a
 Running the example
 -------------------
 
-This project uses the `Gradle Wrapper`_ to automatically bootstrap the build chain.  The only requirement for running
+This project uses the `Gradle Wrapper`_ to bootstrap the build chain automatically.  The only requirement for running
 this example is to have a JDK installed and on the path.  Check out `SDKMAN!`_ for easy Java version management.
 
 In the root of this project, run::
